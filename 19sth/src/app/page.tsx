@@ -1,3 +1,10 @@
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: '19sth',
+}
+ 
+
 export default function Home() {
   const apps = [
     {

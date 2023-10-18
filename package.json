@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "cssnano": "^6.0.1",
     "next": "13.5.5",
     "react": "^18",
     "react-dom": "^18"

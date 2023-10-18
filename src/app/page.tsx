@@ -63,7 +63,7 @@ export default function Home() {
         <div className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert">
           <span className="text-7xl text-black">19</span>
           <span className="text-7xl font-thin border-b-8 border-yellow-300/25 text-black">
-            something
+            sth
           </span>
         </div>
       </div>

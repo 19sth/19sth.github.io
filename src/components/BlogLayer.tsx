@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { ContentI } from '../../contentlayer.config';
 import { useMDXComponent } from 'next-contentlayer/hooks';
+import Header from './Header';
 
 export default function BlogLayer({ content }: { content: ContentI }) {
     const renderImg = (imageUrl: string, explanation: string) => (
@@ -16,12 +17,13 @@ export default function BlogLayer({ content }: { content: ContentI }) {
 
     const Component = useMDXComponent(content?.body.code);
     return (
-        <>
+        <div className='mx-auto max-w-2xl px-4'>
             <Head>
                 <title>{content?.title}</title>
             </Head>
+            <Header />
             <div>
-                <article className="mx-auto max-w-2xl py-16">
+                <article>
                     {/* <div className="cl-post-body" dangerouslySetInnerHTML={{ __html: content.body.html }} /> */}
                     <Component
                         rdrImg={renderImg}
@@ -29,6 +31,6 @@ export default function BlogLayer({ content }: { content: ContentI }) {
                     />
                 </article>
             </div>
-        </>
+        </div>
     );
 }

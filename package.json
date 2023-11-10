@@ -9,12 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "contentlayer": "^0.3.4",
     "cssnano": "^6.0.1",
     "next": "13.5.5",
+    "next-contentlayer": "^0.3.4",
     "react": "^18",
-    "react-dom": "^18",
-    "contentlayer": "^0.2.9",
-    "next-contentlayer": "^0.2.9"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",

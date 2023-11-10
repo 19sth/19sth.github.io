@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import { allBlogs } from "contentlayer/generated";
 
 export default function BlogPage() {
-  const blogItems = allBlogs.map((blog) => (
+  const blogItems = allBlogs.sort((a,b)=>((a.date<b.date)?1:-1)).map((blog) => (
     <div className="border-b-2 mb-5" key={"id_"+blog._id}>
       <a href={"/blog/" + blog._raw.flattenedPath}>
         <div className="flex justify-between items-begin">

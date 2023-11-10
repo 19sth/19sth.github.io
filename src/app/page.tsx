@@ -36,20 +36,18 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center  pb-6 pt-8 lg:static lg:w-auto lg:p-4"></p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full flex-col justify-end lg:items-end bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+        <div className="fixed bottom-0 left-0 flex h-48 w-full flex-col justify-end lg:items-end lg:static lg:h-auto lg:w-auto bg-none">
           <a
-            className="pointer-events-none flex gap-2 lg:pointer-events-auto lg:p-0 flex justify-center"
+            className="flex gap-2 lg:p-0 flex justify-center"
             href="https://github.com/19sth"
             target="_blank"
-            rel="noopener noreferrer"
           >
             an open-source organization
             <FontAwesomeIcon icon={faCubes} className='w-4'/>
           </a>
           <a
-            className="pointer-events-none flex gap-2 py-5 lg:pointer-events-auto lg:pt-2 flex justify-center"
+            className="flex gap-2 py-5 lg:pt-2 flex justify-center"
             href="/blog"
-            rel="noopener noreferrer"
           >
             blog posts
             <FontAwesomeIcon icon={faRss} className='w-4'/>
@@ -58,7 +56,7 @@ export default function Home() {
       </div>
 
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial">
-        <div className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert">
+        <div className="relative">
           <span className="text-5xl lg:text-7xl text-black">19</span>
           <span className="text-5xl lg:text-7xl font-thin border-b-8 border-yellow-300 text-black">
             something
@@ -71,7 +69,7 @@ export default function Home() {
           <a
             key={`app_${e.title}`}
             href={e.link}
-            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-yellow-300 hover:bg-yellow-100"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -1,4 +1,4 @@
-import { faAsterisk, faCodeBranch, faCodeCompare, faCodeMerge, faCubes } from '@fortawesome/free-solid-svg-icons';
+import { faCubes, faRss } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Metadata } from 'next'
 
@@ -36,15 +36,23 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center  pb-6 pt-8 lg:static lg:w-auto lg:p-4"></p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+        <div className="fixed bottom-0 left-0 flex h-48 w-full flex-col justify-end lg:items-end bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+            className="pointer-events-none flex gap-2 lg:pointer-events-auto lg:p-0 flex justify-center"
             href="https://github.com/19sth"
             target="_blank"
             rel="noopener noreferrer"
           >
             an open-source organization
             <FontAwesomeIcon icon={faCubes} className='w-4'/>
+          </a>
+          <a
+            className="pointer-events-none flex gap-2 py-5 lg:pointer-events-auto lg:pt-2 flex justify-center"
+            href="/blog"
+            rel="noopener noreferrer"
+          >
+            blog posts
+            <FontAwesomeIcon icon={faRss} className='w-4'/>
           </a>
         </div>
       </div>

@@ -61,9 +61,9 @@ export default function Home() {
 
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial">
         <div className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert">
-          <span className="text-7xl text-black">19</span>
-          <span className="text-7xl font-thin border-b-8 border-yellow-300/25 text-black">
-            sth
+          <span className="text-5xl lg:text-7xl text-black">19</span>
+          <span className="text-5xl lg:text-7xl font-thin border-b-8 border-yellow-300 text-black">
+            something
           </span>
         </div>
       </div>

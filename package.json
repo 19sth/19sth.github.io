@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "contentlayer dev & next dev",
     "build": "next build && next export && touch out/.nojekyll",
     "start": "next start",
     "lint": "next lint"
@@ -12,7 +12,9 @@
     "cssnano": "^6.0.1",
     "next": "13.5.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "contentlayer": "^0.2.9",
+    "next-contentlayer": "^0.2.9"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -11,6 +11,11 @@ export const metadata: Metadata = {
 export default function Home() {
   const apps = [
     {
+      title: "Progress",
+      description: "Create tasks for developing new habits through tracking.",
+      link: "https://19sth.github.io/pwa-progress/",
+    },
+    {
       title: "Memorise",
       description: "Study with cards, train your knowledge.",
       link: "https://19sth.github.io/pwa-memorise/",

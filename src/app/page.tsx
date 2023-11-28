@@ -61,7 +61,7 @@ export default function Home() {
       </div>
 
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial">
-        <div className="relative md:mb-8">
+        <div className="relative mb-8 lg:mb-0">
           <span className="text-5xl lg:text-7xl text-black">19</span>
           <span className="text-5xl lg:text-7xl font-thin border-b-8 border-yellow-300 text-black">
             something

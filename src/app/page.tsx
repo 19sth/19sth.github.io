@@ -41,7 +41,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center  pb-6 pt-8 lg:static lg:w-auto lg:p-4"></p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full flex-col justify-end lg:items-end lg:static lg:h-auto lg:w-auto bg-none">
+        <div className="fixed bottom-0 left-0 flex h-48 w-full flex-col justify-end lg:items-end lg:static lg:h-auto lg:w-auto bg-white">
           <a
             className="flex gap-2 lg:p-0 flex justify-center"
             href="https://github.com/19sth"
@@ -61,7 +61,7 @@ export default function Home() {
       </div>
 
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial">
-        <div className="relative">
+        <div className="relative md:mb-8">
           <span className="text-5xl lg:text-7xl text-black">19</span>
           <span className="text-5xl lg:text-7xl font-thin border-b-8 border-yellow-300 text-black">
             something

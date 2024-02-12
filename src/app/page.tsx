@@ -16,6 +16,11 @@ export default function Home() {
       link: "https://19sth.github.io/pwa-progress/",
     },
     {
+      title: "Improve",
+      description: "Track your improvement steps and predict the success spot.",
+      link: "https://19sth.github.io/pwa-improve/",
+    },
+    {
       title: "Memorise",
       description: "Study with cards, train your knowledge.",
       link: "https://19sth.github.io/pwa-memorise/",

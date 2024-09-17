@@ -40,6 +40,11 @@ export default function Home() {
       description: "Play whoami that has variaty of topics with your friends.",
       link: "https://19sth.github.io/pwa-whoami/",
     },
+    {
+      title: "Lifting",
+      description: "Weight lifting tracker for progressive overload.",
+      link: "https://19sth.github.io/pwa-lifting/",
+    },
   ];
 
   return (

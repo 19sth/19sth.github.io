@@ -45,6 +45,11 @@ export default function Home() {
       description: "Weight lifting tracker for progressive overload.",
       link: "https://19sth.github.io/pwa-lifting/",
     },
+    {
+      title: "Timer",
+      description: "Tracking time for certain time consuming jobs.",
+      link: "https://19sth.github.io/pwa-timer/",
+    },
   ];
 
   return (

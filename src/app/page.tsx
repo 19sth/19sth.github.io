@@ -50,6 +50,11 @@ export default function Home() {
       description: "Tracking time for certain time consuming jobs.",
       link: "https://19sth.github.io/pwa-timer/",
     },
+    {
+      title: "Counter",
+      description: "Create and track up to 5 named counters with reminder notifications.",
+      link: "https://19sth.github.io/pwa-counter/",
+    },
   ];
 
   return (

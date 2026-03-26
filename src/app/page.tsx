@@ -6,7 +6,7 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: '19sth',
 }
- 
+
 
 export default function Home() {
   const apps = [
@@ -55,6 +55,11 @@ export default function Home() {
       description: "Create and track up to 5 named counters with reminder notifications.",
       link: "https://19sth.github.io/pwa-counter/",
     },
+    {
+      title: "Stampimg",
+      description: "Allow you to keep memories by stamping your photos with time and location.",
+      link: "https://19sth.github.io/pwa-stampimg/",
+    },
   ];
 
   return (
@@ -68,14 +73,14 @@ export default function Home() {
             target="_blank"
           >
             an open-source organization
-            <FontAwesomeIcon icon={faCubes} className='w-4'/>
+            <FontAwesomeIcon icon={faCubes} className='w-4' />
           </a>
           <a
             className="flex gap-2 py-5 lg:pt-2 flex justify-center"
             href="/blog"
           >
             blog posts
-            <FontAwesomeIcon icon={faRss} className='w-4'/>
+            <FontAwesomeIcon icon={faRss} className='w-4' />
           </a>
         </div>
       </div>

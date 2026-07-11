@@ -60,6 +60,11 @@ export default function Home() {
       description: "Allow you to keep memories by stamping your photos with time and location.",
       link: "https://19sth.github.io/pwa-stampimg/",
     },
+    {
+      title: "Column Extract",
+      description: "Extract information from columns of a dataset with ease.",
+      link: "https://19sth.github.io/pwa-column-extract/",
+    },
   ];
 
   return (

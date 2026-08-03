@@ -65,6 +65,11 @@ export default function Home() {
       description: "Extract information from columns of a dataset with ease.",
       link: "https://19sth.github.io/pwa-column-extract/",
     },
+    {
+      title: "Expenses",
+      description: "Visualize your expenses and be aware of your budget.",
+      link: "https://19sth.github.io/pwa-expenses/",
+    },
   ];
 
   return (
